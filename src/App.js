@@ -10,9 +10,9 @@ function App() {
   );
 }
 
-function DemoProps(properties) {
+function DemoProps({property1, property2}) {
   return(
-    <div>{properties.property1} {properties.property2}</div>
+    <div>{property1} {property2}</div>
   )
 }
 
